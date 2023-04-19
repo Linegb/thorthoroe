@@ -1,0 +1,95 @@
+* {font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: #d7b098;
+}
+
+/* Header start*/
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 49px;
+    font-weight: 300;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color:#fcefdd;
+    color: black;
+  }
+  
+  .topnav img{
+    height: 50px;
+  }
+
+  /* Header slut*/
+.kakao {
+  height: 200px;
+  display: block;
+  margin-bottom: -200px;
+  margin-left: 100px;
+  margin-top: 50px;
+  transition: transform .2s; /* Animation */
+}
+
+.kakao:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.social {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-top: -200px;
+  margin-right: 20px;
+  margin-bottom: -300px;
+  transition: transform .2s; /* Animation */
+}
+  .social:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.logo {
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  transition: transform .2s; /* Animation */
+}
+
+.logo:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.Afrika {
+  height: 250px;
+  display: block;
+  margin-left: 550px;
+  margin-top: 50px;
+  transition: transform .2s; /* Animation */
+}
+
+.Afrika:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+

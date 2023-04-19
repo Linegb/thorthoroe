@@ -1,0 +1,132 @@
+* {font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+    }
+
+
+      /* Styling af baggrundsbillede*/
+    .wrap {
+        background-image: url(../img/baggrund-thor.png);
+        background-size: cover;
+        width: auto;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding-bottom: 4%;
+    }
+
+
+    .background-image {
+      width: 100%;
+    }
+    
+    /* Header start*/
+
+    
+      .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        float: left;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 49px;
+        font-weight: 300;
+      }
+      
+      .topnav a.icon {
+        float: right;
+      }
+      
+      .topnav a:hover {
+        background-color:#fcefdd;
+        color: black;
+      }
+      
+      .topnav img{
+        height: 50px;
+      }
+    
+      /* Header slut*/
+
+
+           /* Indhold */
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+
+.indhold img {
+  height: 300px;
+  padding-right: 30px;
+}
+
+.indhold {
+  display: flex;
+  padding-left: 110px;
+  padding-right: 110px;
+  line-height: 40px;
+  padding-top: 50px;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.liv h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.liv img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  
+}
+
+.liv p {
+  padding-left: 110px;
+  padding-right: 110px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+      /* Styling af knapper*/
+
+
+.knap-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 20%;
+}
+.knap{
+  position: relative;
+  display: inline-block;
+}
+
+.knap a{
+  color: #533422;
+  background-color: #fcefdd;
+  border-radius: 15px;
+  border: 0px;
+  font-size: 30px;
+  margin: 30px;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
